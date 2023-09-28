@@ -1,0 +1,81 @@
+html {
+    background-image: url("bg.jpeg");
+    background-size: cover;
+}
+.box {
+    background-color: beige;
+    background-size: cover;
+    border: 1px solid black;
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    padding: 10px;
+    top: 20%;
+    left:10%;
+    /* transform: translate(-50%, -50%); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box .name, .nim, .date ,.address-label, .submit{
+      display: flex;
+      padding: 10px;
+      align-items: center;
+      
+  }
+  
+  .box .name label {
+      padding-right: 20px;
+      color: darkblue;
+  }
+  
+  .box .nim label {
+      padding-right: 27px;
+      color: darkblue;
+  }
+  
+  .box .date label {
+      padding-right: 8px;
+      color: darkblue;
+  }
+  
+  .box .address-label label {
+      padding-right: 13px;
+      color: darkblue;
+  }
+  
+  .box .btn-submit {
+      margin-left: 70px;
+      color: darkblue;
+  }
+  
+  /*for the table
+  */
+  .container-table {
+      background-color: gold;
+      width: 50%;
+      position: absolute;
+      left: 45%;
+      margin-right: -50%;
+      top: 20%;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .container-table .div-table table, th, td{
+      border: 1px solid black
+  }
+  
+  .container-table .div-table table {
+      width: 100%;
+  }
+  
+  .container-table .div-table table th {
+      height: 60px;
+  }
+  
+  .container-table .div-table table td {
+      height: 50px;
+      padding-left: 20px 
+  }
+  
